@@ -4,7 +4,7 @@ import org.junit.*;
 public class Tester{
 
     @Test
-    public static void test1(){
+    public void test1(){
         assertEquals(5, TestforSkillDemo.add(2,3));
     }
 }
